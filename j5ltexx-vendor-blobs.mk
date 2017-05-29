@@ -18,6 +18,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5ltexx/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/j5ltexx/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/j5ltexx/proprietary/bin/rmnetcli:system/bin/rmnetcli \
+    vendor/samsung/j5ltexx/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
+    vendor/samsung/j5ltexx/proprietary/lib/hw/nfc_nci.MSM8916.so:system/lib/hw/nfc_nci.MSM8916.so \
+    vendor/samsung/j5ltexx/proprietary/lib/libnfc-nci.so:system/lib/libnfc-nci.so \
     vendor/samsung/j5ltexx/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/samsung/j5ltexx/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/j5ltexx/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
